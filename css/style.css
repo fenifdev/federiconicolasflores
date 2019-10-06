@@ -1,0 +1,51 @@
+/* Profile Image (Full background) */
+	body{
+		background: #44bbaa;
+	}
+
+	header{
+		background-color: #222;
+		background-size: cover;
+		height: 440px;
+	}
+
+	header h1{
+		color: #fff;
+		font: normal bold 36px/46px 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		margin: 0;
+		padding-top: 180px;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+	header h2{
+		color: #fff;
+		font: normal 300 14px/24px 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		margin-top: 10px;
+		text-align: center;
+		line-height: 26px;
+	}
+
+	footer{
+		color: #fff;
+		padding: 40px 0;
+		text-align: center;
+	}
+
+	footer img{
+		border:solid 5px;
+		border-radius: 50px;
+		margin:10px 0;
+		/*text-align: center;*/
+	}
+
+	footer p{
+		/*text-align: center;*/
+		margin: 0 auto;
+		max-width: 800px;
+	}
+
+	.barrita{
+		color: #44bbaa;
+	}
