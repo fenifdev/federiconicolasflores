@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp",
+    "css": "gulp minify-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenifdev/federiconicolasflores.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fenifdev/federiconicolasflores/issues"
+  },
+  "homepage": "https://github.com/fenifdev/federiconicolasflores#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0"
+  }
+}
