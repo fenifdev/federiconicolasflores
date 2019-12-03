@@ -8,3 +8,9 @@ exports.default = gulp.task('minify-css', () => {
     .pipe(cleanCSS({compatibility: 'ie10+'}))
     .pipe(gulp.dest('css'));
 });
+
+exports.js = gulp.task('js', () => {
+  return gulp.src(['src/js/vendor/modernizr-2.6.2.min.js', 'src/js/plugins.js'])
+  	.pipe(concat('main.js'))
+    .pipe(gulp.dest('js'));
+});
